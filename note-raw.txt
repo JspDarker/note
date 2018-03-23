@@ -1,0 +1,207 @@
+=====================================
+#$_CSS || CSS bootstrap layout
+==============================
+	1: chua img-background
+		2. position absolute
+			do tuong phan cua img so 1
+				3. chua text 
+					margin or padding
+	
+
+
+	2.
+	?? Position in CSS
+		position :relative; -> apdung cho parent
+			no se chua nhung thang ben trong
+			- position: absolute; -> se nam gon trong 
+				border relative;
+	
+	position: fixed; ->K phu thuoc ai ca, khong bi anh huong
+		boi relative
+=====================================
+#$_JavaScript || Basic-JavaScript
+================================
+
+
+=====================================
+#$_Jsp-All || Basic-Programming
+================================
+	/*
+	* TỪ CHUYÊN NGÀNH 
+	*/
+		1. properties 	thuộc tính
+		2. behavior  	Các hành vi xử lí
+		3. label		Nhãn tên
+		4. delegates 	Kiểu ủy quyền
+		
+	/*********************************************************************************************/
+	/*************  HỌC C#  ********  HỌC C#  ******** HỌC c#  *****/
+	/*********************************************************************************************/
+
+	1 Các bước chuẩn bị cho chương trình
+		a. Xác định vấn đề cần giải quyết
+		b. Nghĩ ra kế hoạch để thực hiện
+		c. Thực thi kế hoạch
+		d. Kiểm tra kết quả xem có hợp lý chưa
+		
+	2. Việc xác định một phương thức -> phải: 	Xác định kiểu giá trị trả về
+												Tên của phương thức
+												Các tham số cần thiết - của phương thức đó;	
+	3. Create namespace 
+		Select, insert, update, delete, alter	
+
+
+
+
+
+=====================================
+#$_English || Basic-English
+================================
+	==================================================|
+	|| English 42days [Speak] {/p/}
+	==================================================|
+	pet pill please
+	pencil stop hope
+	shop develop 
+
+	can you help me put this away?
+
+	stop giving me your opinion.
+
+	what type of people do you like?
+
+	==================================================|
+	|| English 42days [Speak]
+	==================================================|
+
+
+
+=====================================
+#$_Japan || Basic-Japan
+================================
+
+
+=====================================
+#$_Regex || Basic-Regex
+================================
+
+int: match(/^\d+$/)
+float: match(/^-?\d*(\.\d+)?$/)
+meta-character
+\d -> 0-9   \d\d\d-\d\d\
+\d -> 0 -9
+\w -> A-Za-z0-9 \W  \w{5} tu co 5 ki tu
+\s -> spacing \S
+. -> any char
+.*  rainbox.*
+* 0-> vo cung
++ 1-> vo cung
+? 0 or 1
+{min,max}
+{n}
+^ begining
+$ end
+\b 
+
+^\w+$ -> phai bat dau bang character va chi select 1 tu duy nhat
+\b\w{4}\b  chon string voi 4 ki tu
+\d{3}-\d{3}-\d{4}
+
+	<-----------------------------------------------------|
+\d -> int(0-9)
+. -> any characters {all}
+
+* 0 or more
++ 1 or more
+? 0 or 1
+
+{min,max}
+{n}
+
+.*     rainbow.*
+
+\w -> A-Za-z0-9 \W  all chu va so
+\s -> space \S 
+
+^ beginig
+$ end
+\b word bovwing  bat dau bang chu in hoa
+
+^\w+$ bat dau bang 1 tu va chi select 1 tu duy nhat
+\b\w{3}\b  bat dau bang chu hoa or 3 ki tu, chi lay 3 ki tu
+
+
+=====================================
+#$_Database || Basic-Database
+================================
+CREATE DATABASE music;
+USE music;
+
+CREATE TABLE artists (
+	-> artist_id INT(4) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+	-> artist_name VARCHAR(50) NOT NULL,
+	-> artist_country CHAR (2) NOT NULL
+	->);
+	
+CREATE TABLE ratings (
+	-> rating_id INT(2) NOT NULL PRIMARY KEY,
+	-> rating_name VARCHAR (50) NOT NULL
+	->);
+
+CREATE TABLE songs(
+	-> song_id INT(5) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+	-> song_title VARCHAR(50) NOT NULL,
+	-> fk_song_rating INT(2) NOT NULL,
+	-> fk_song_artist INT(4) NOT NULL
+	->);
+
+
+=====================================
+#$_Git-Pro || Basic-Git
+================================
+?? Git and github
+
+1. Cau hinh User
+	git config --global user.name "username"
+	git config --global user.email "your email"
+	{
+		? xem cau hinh user
+		git config --list
+	}
+
+2. local Repository and remote Repository
+	? Local Repository
+	
+	- create Local Repository
+		git init ([folder_name])
+	
+	- convert file to tracked
+		git add [file_name]
+	- go commit 
+		git commit -m "some text after..."
+	
+	*# Start Clone github ve git(local)
+		git clone https://github.com/JspDarker/git-demo.git
+		
+		<cd git-demo/> -> vao thu muc git-demo cua github
+			cd git-demo/ dung de di toi folder tren github 
+		[dung git add controller/ de add thu muc ve tracked]
+			
+			README.md chua duoc tracking
+			them thong tin vao file : echo "# some text ..." > README.md
+			-> git commit -a -m "note edit file README"
+	
+	# dua local len remote
+	git push origin master
+	
+	2. tao file trong git
+	
+	3. chuyen tap tin ve trang thai untracked
+		rm file_name
+		git rm -f file_name : delete file 
+	
+	http://192.168.100.14:3000/
+	http://localhost:3000/
+	
+	git bash here > npm start{index.js}
+	=================================================>>>>>
